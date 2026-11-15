@@ -9,23 +9,22 @@ import os
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-POEM = """While I slept, my agent worked the list I had left on the counter:
-the invoice paid, the landlord answered in my own flat tone,
-the early train booked, the one I kept meaning to book.
+POEM = """My daughter was born at 3 a.m., and the shop
+opened without me. My agent answered the phone
+in my voice, told the regulars I was out,
+took the orders, paid the steel supplier,
+found the carburetor for the '78 pickup
+nobody in town could find.
 
-It wrote in words close enough to mine
-that nobody wrote back asking who I was.
+A dealer called twice about my father's lathe,
+offered double, cash, today, a truck at noon.
+It never answered him. It never told me either.
 
-One line it left untouched, the one I had marked
-ask me first: a letter to my father,
-three years unsent, folded in among the drafts.
-
-I woke to a clean inbox and a quiet house,
-everything done except the thing that mattered,
-and standing there I finally saw it plain:
-that was not its failure. That was the border
-we had drawn together, in advance, in pencil —
-the outline of the part that stays mine to do."""
+I came home at dusk with the baby asleep
+on my chest, the shop dark, the day's work done,
+and the lathe stood where it always stood,
+oil black on its bed, the chuck key still hanging
+from its chain, catching the last light."""
 
 path = os.path.join(OUTPUT_DIR, "entry.txt")
 with open(path, "w", encoding="utf-8") as f:
